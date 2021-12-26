@@ -1,0 +1,24 @@
+.ContactItem{
+   width: 100%;
+   margin: 1rem 0;
+   .contact{
+       display: flex;
+       align-items: center;
+       height: 10rem;
+       background-color: gray;
+       .right-items{
+           margin-left: 2rem;
+       }
+       img{
+           padding: 1rem;
+           border: 1px solid black;
+           margin-left: 2rem;
+       }
+   }
+}
+.ContactItem{
+    display: flex;
+    .contact-sect{
+        width: 100%;
+    }
+}
