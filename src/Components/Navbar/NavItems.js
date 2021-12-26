@@ -10,8 +10,8 @@ export const NavItems = [
         cName: 'nav-links'
     },
     {
-        title: 'Contacts',
-        url: '/contacts',
+        title: 'CV',
+        url: '/cv',
         cName: 'nav-links'
     }
 ]

@@ -4,10 +4,7 @@ import { BrowserRouter, Routes, Route } from "react-router-dom";
 import App from './App.js';
 import Projects from './Containers/Projects/Projects.jsx';
 import Stack from './Containers/Stack/Stack.jsx';
-import Contacts from './Containers/Contacts/Contacts.jsx';
-
-
-
+import Cv from './Containers/Cv/Cv.jsx';
 import './index.css';
 
 ReactDOM.render(
@@ -17,7 +14,7 @@ ReactDOM.render(
         
         <Route path="projects" element={<Projects/>}/>
         <Route path="stack" element={<Stack/>} />
-        <Route path="contacts" element={<Contacts/>} />
+        <Route path="cv" element={<Cv/>} />
 
 
         <Route path="*" element={<div>NOT FOUND</div>  } />
